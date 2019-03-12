@@ -6,7 +6,7 @@
 	apt-get install nano wget mc dbus ufw fail2ban htop git pwgen automake -y
 	apt-get install software-properties-common build-essential -y
 	apt-get install libtool autotools-dev autoconf pkg-config libssl-dev -y
-	apt-get install libevent-dev libboost-all-dev libminiupnpc-dev -y
+	apt-get install libevent-dev libboost-all-dev libminiupnpc-dev libzmq3-dev -y
 	# on newer versions of ubuntu (17.x and newer) you need to install libssl1.0 -y
 	apt-get install libssl1.0-dev -y
 
